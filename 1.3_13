@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int a,b,v;
+  cin >> v;
+  a = (v / 1000 - v % 10 );
+  b = (v % 1000 / 100 - v % 100 / 10);
+  cout << a * a + b * b + 1 << endl;
+  return 0;
+}
