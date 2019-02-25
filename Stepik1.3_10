@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int N;
+    cin >> N;
+    cout << N / 3600 % 24;
+    cout << ":" << N / 60 % 60 / 10 
+    cout << N / 60 % 60 % 10 << ":" 
+    cout << N % 3600 % 60 / 10 
+    cout << N % 3600 % 60 % 10;
+  return 0;
+}
