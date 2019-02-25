@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+
+int main() {
+int a,b,n,c,cc,sum,sum2;
+    cin >> a >> b >> n;
+    sum = a * n;
+    sum2 = b * n; 
+    sum += sum2 / 100;
+    sum2 = sum2 % 100;
+    cout << sum << " " << sum2;
+    
+  return 0;
+}
