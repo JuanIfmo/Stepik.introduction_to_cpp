@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+      int first, second, firstthen, secondthen;
+      cin >> first >> second;
+      cin >> firstthen >> secondthen; 
+      if (first == firstthen || second == secondthen){
+        cout << "YES" << endl;
+      }
+      else {
+        cout << "NO" << endl;
+      }
+      system ("pause");
+  return 0;
+}
